@@ -40,7 +40,7 @@ The following open-source EDA tools were installed to cover the entire VLSI desi
 <div align="center">
 
   ```bash
-🧠 Yosys → 📟 Icarus Verilog → 📊 GTKWave → ⚡ ngspice → 🎨 Magic VLSI → 🌊 OpenLane
+🧠 Yosys → 📟 Icarus Verilog → 📊 GTKWave → ⚡ ngspice → 🎨 Magic VLSI
   ```
 </div>
 
