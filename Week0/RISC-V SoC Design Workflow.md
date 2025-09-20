@@ -25,7 +25,7 @@ The core principle of this workflow is to continuously verify each new stage of 
 <img width="3116" height="444" alt="canvas_vlsi-250920_0727" src="https://github.com/user-attachments/assets/aca50d3d-8bca-453a-87ad-190f03f9294b" />
 
 
-### ⓪ O0: Application Requirements & Specification
+### 0️⃣ O0: Application Requirements & Specification
 
 This is the foundational stage that defines the "why" and "what" of the project before any code is written.
 
@@ -33,7 +33,7 @@ This is the foundational stage that defines the "why" and "what" of the project 
 * **Output**: A detailed requirements document (`O0`), which serves as the ultimate **source of truth**.
 * **Verification**: This stage sets the benchmark for all subsequent work.
 
-### ① O1: Chip Modelling & Specification (C-Model)
+### 1️⃣ O1: Chip Modelling & Specification (C-Model)
 
 A high-level, functional model is created based on the requirements from `O0`.
 
@@ -41,7 +41,7 @@ A high-level, functional model is created based on the requirements from `O0`.
 * **Output**: A verified functional specification (`O1`).
 * **Verification**: `O0 == O1`. This crucial step ensures the C-model accurately captures the initial requirements.
 
-### ② O2: RTL (Register-Transfer Level) Architecture
+### 2️⃣ O2: RTL (Register-Transfer Level) Architecture
 
 The functional model is translated into a "soft copy" of the hardware.
 
@@ -49,7 +49,7 @@ The functional model is translated into a "soft copy" of the hardware.
 * **Output**: The RTL design (`O2`).
 * **Verification**: `O1 == O2`. The C testbench is run on the RTL design (in a simulator) to confirm identical behavior.
 
-### ③ O3: SoC Integration
+### 3️⃣ O3: SoC Integration
 
 All the different hardware components are assembled into a complete System on a Chip.
 
@@ -60,7 +60,7 @@ All the different hardware components are assembled into a complete System on a 
 * **Output**: The fully integrated SoC design (`O3`).
 * **Verification**: `O1 == O2 == O3`. The integrated design is again verified against the golden C-model.
 
-### ④ O4: Post-Silicon Validation
+### 4️⃣ O4: Post-Silicon Validation
 
 The final stage where the physical, manufactured chip is tested.
 
