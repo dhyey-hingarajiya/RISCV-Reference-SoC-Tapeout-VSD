@@ -23,7 +23,7 @@ This table provides a high-level overview of my progress through the program. Ea
 | Week | Focus Topic | Status |
 | :--- | :--- | :--- |
 | **Week 0** | [Foundation & EDA Tool Setup](./Week0) <br> [RISCV SoC Design Workflow](./Week0/RISC-V%20SoC%20Design%20Workflow.md)| ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
-| **Week 1** | ... | ![Status](https://img.shields.io/badge/Status-Pending-lightgrey?style=for-the-badge) |
+| **Week 1** | [Verilog RTL Design and Synthesis](./Week1) | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
 
 ---
 
